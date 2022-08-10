@@ -1,0 +1,6 @@
+*.iml
+.idea
+/backend/.mvn/wrapper/maven-wrapper.properties
+/backend/.mvn
+/backend/mvnw.cmd
+/backend/mvnw
