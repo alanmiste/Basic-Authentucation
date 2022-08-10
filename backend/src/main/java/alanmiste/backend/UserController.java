@@ -14,11 +14,11 @@ public class UserController {
 
     @GetMapping("login")
     String login() {
-        return me();
+        return getUsername();
     }
 
-    @GetMapping("aa")
-    String me() {
+    @GetMapping("me")
+    String getUsername() {
         return ((User) SecurityContextHolder
                 .getContext()
                 .getAuthentication()
